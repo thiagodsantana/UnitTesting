@@ -1,0 +1,6 @@
+﻿{
+  Principal: 1000.0,
+  Meses: 6,
+  InterestRate: 0.01,
+  TotalToPagar: 1061.52
+}

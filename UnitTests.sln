@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emprestimos.API", "Emprestimos.API\Emprestimos.API.csproj", "{9216773F-8F06-40AF-B201-16B493094C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emprestimos.Tests", "Emprestimos.Tests\Emprestimos.Tests.csproj", "{CE2F86E4-897E-48AC-888F-94AEF7F78B2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9216773F-8F06-40AF-B201-16B493094C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9216773F-8F06-40AF-B201-16B493094C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9216773F-8F06-40AF-B201-16B493094C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9216773F-8F06-40AF-B201-16B493094C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2F86E4-897E-48AC-888F-94AEF7F78B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2F86E4-897E-48AC-888F-94AEF7F78B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2F86E4-897E-48AC-888F-94AEF7F78B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2F86E4-897E-48AC-888F-94AEF7F78B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+﻿{
+  Principal: 1000.0,
+  Meses: 6,
+  TotalToPagar: 1061.52
+}
