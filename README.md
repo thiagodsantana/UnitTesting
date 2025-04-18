@@ -1,46 +1,15 @@
-# API de Empréstimos - Exemplo em Português
+# 📚 API de Empréstimos
 
-API mínima desenvolvida em .NET 8 para simulação de empréstimos com juros compostos, escrita totalmente em português.
+API desenvolvida em ASP.NET 8 Minimal API com cálculo de empréstimos e testes completos.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-- Simulação de empréstimos com taxa de juros mensal fixa (1%)
+- Cálculo de empréstimo com juros compostos mensais
 - Validação de parâmetros
-- Testes com:
-  - xUnit
-  - FluentAssertions
-  - NSubstitute
-  - Verify
-  - Testes de integração com WebApplicationFactory
+- Testes unitários e de integração com xUnit, FluentAssertions, NSubstitute e Verify
+- Cobertura de testes com Coverlet
 
-## Como Executar
+## 🧪 Executar Testes
 
 ```bash
-dotnet run --project ApiEmprestimos
-```
-
-Acesse via navegador: `http://localhost:5000/emprestimo?valor=1000&meses=12`
-
-## Executar Testes
-
-```bash
-dotnet test
-```
-
-## Criação da Solução (instruções manuais)
-
-```bash
-dotnet new sln -n ApiEmprestimos
-dotnet new web -n ApiEmprestimos
-dotnet new xunit -n ApiEmprestimos.Tests
-
-dotnet sln add ApiEmprestimos/ApiEmprestimos.csproj
-dotnet sln add ApiEmprestimos.Tests/ApiEmprestimos.Tests.csproj
-
-dotnet add ApiEmprestimos.Tests reference ApiEmprestimos
-
-dotnet add ApiEmprestimos.Tests package FluentAssertions
-dotnet add ApiEmprestimos.Tests package NSubstitute
-dotnet add ApiEmprestimos.Tests package Verify.Xunit
-dotnet add ApiEmprestimos.Tests package Microsoft.AspNetCore.Mvc.Testing
-```
+dotnet test --collect:"XPlat Code Coverage"
