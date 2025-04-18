@@ -1,0 +1,6 @@
+﻿{
+  ValorSolicitado: 1000.0,
+  Meses: 6,
+  TaxaJuros: 0.01,
+  TotalPagar: 1061.52
+}
